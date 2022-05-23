@@ -16,9 +16,9 @@ national_focus = ADM
 
 1444.11.11 = {
 	monarch = {
-		adm = 1
-		mil = 1
-		dip = 1
+		adm = 0
+		mil = 0
+		dip = 0
 		regent = yes
 	}
 }

@@ -6,7 +6,6 @@ government_rank = 1
 primary_culture = illini
 religion = totemism
 technology_group = north_american
-capital = 915
 
 federation = { 
 	name = "illini_federation_name" 

@@ -16,7 +16,15 @@ capital = 125	# Palermo
 		female = yes
 	}
 }
-
+1444.1.28 = {
+	monarch = { 
+		name = "Ferrante II"
+		dynasty = "d'Aragó"
+		dip = 3
+		mil = 5
+		adm = 4
+	}
+}
 1713.4.12 = {
 	monarch = {
 		name = "Vittorio Amedeo II"

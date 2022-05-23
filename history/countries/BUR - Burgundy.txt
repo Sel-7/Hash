@@ -103,9 +103,8 @@ add_army_professionalism = 0.1
 		death_date = 1477.1.5
 		claim = 95
 		adm = 2
-		dip = 1
+		dip = 0
 		mil = 4
-		block_disinherit = yes
 	}
 	set_heir_flag = is_charles_of_burg_flag
 }

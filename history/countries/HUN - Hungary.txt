@@ -25,19 +25,35 @@ change_estate_land_share = {
 }
 
 
-1437.1.1 = { leader = {	name = "János Hunyadi"         	type = general	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1445.1.1 } }
+1437.1.1 = { leader = {	name = "János Hunyadi"         	type = general	fire = 4	shock = 4	manuever = 4	siege = 1	 } }
 
 # Personal union with Habsburg under Albrecht II 1437-39
 # Personal union with Poland under Wladyslaw III 1439-44
 
-1444.11.10 = {
+1443.10.1 = {
 	monarch = {
-		adm = 1
-		mil = 1
-		dip = 1
-		regent = yes
+		name = "Mátyás"
+		dynasty = Corvin
+		birth_date = 1428.2.23			
+		adm = 4
+		dip = 5
+		mil = 5
+		leader = {	name = "Mátyás Corvin"         	type = general	fire = 3	shock = 4	manuever = 3	siege = 1 }
 	}
 }
+
+1443.10.1 = {
+	heir = {
+		name = "Géza"
+		dynasty = Corvin
+		birth_date = 1428.2.23			
+		adm = 4
+		dip = 5
+		mil = 5
+		leader = {	name = "Mátyás Corvin"         	type = general	fire = 3	shock = 4	manuever = 3	siege = 1 }
+	}
+}
+
 
 # Personal union with Habsburg under Ladislaus the Posthumous 1452-1457
 1452.1.1 = {
@@ -52,17 +68,6 @@ change_estate_land_share = {
 	}
 }
 
-1457.11.24 = {
-	monarch = {
-		name = "Mátyás"
-		dynasty = Corvin
-		birth_date = 1443.2.23			
-		adm = 4
-		dip = 5
-		mil = 5
-		leader = {	name = "Mátyás Corvin"         	type = general	fire = 3	shock = 4	manuever = 3	siege = 1 }
-	}
-}
 
 1462.1.1 = { leader = {	name = "Pal Kinizsi"           	type = general	fire = 2	shock = 3	manuever = 3	siege = 1	death_date = 1494.1.1 } }
 

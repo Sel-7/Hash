@@ -81,14 +81,23 @@ capital = 121 # Napoli
 
 1435.2.3 = {
 	monarch = { 
-		name = "Renato I"
-		dynasty = "de Valois"
+		name = "Renato"
+		dynasty = "Napolia"
 		dip = 2
 		mil = 2
 		adm = 2
 	}
 }
-
+1435.2.3 = {
+	heir = { 
+		name = "Giovanni"
+		dynasty = "Napolia"
+		claim = 100
+		dip = 3
+		mil = 2
+		adm = 5
+	}
+}
 # Personal Union with Aragon 42-58
 
 1458.6.27 = {
