@@ -1,7 +1,7 @@
 #2447 - Mantrega
 
-owner = GEN
-controller = GEN
+owner = CRI
+controller = CRI
 culture = pontic_greek
 religion = orthodox
 hre = no
