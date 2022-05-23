@@ -26,7 +26,7 @@ philosopher = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -62,15 +62,7 @@ artist = {
 	}
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.2
-			NOT = { stability = 1 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { stability = 0 }
-		}
+		factor = 1000
 	}
 }
 
@@ -88,7 +80,7 @@ treasurer = {
 	}
 	
 	ai_will_do = {
-		factor = 1.5
+		factor = 1000
 	}
 }
 
@@ -107,15 +99,7 @@ theologian = {
 	}
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			unrest = -1
-		}
-		modifier = {
-			factor = 1.5
-			unrest = 1
-		}
+		factor = 1000
 	}
 }
 
@@ -162,15 +146,7 @@ inquisitor = {
 	}
 	
 	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0.5
-			religious_unity = 0.95
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
+		factor = 1000
 	}
 }
 
@@ -195,7 +171,7 @@ statesman = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -222,7 +198,7 @@ naval_reformer = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -240,11 +216,7 @@ trader = {
 	}
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			has_idea_group = trade_ideas
-		}
+		factor = 1000
 	}
 }
 
@@ -263,7 +235,7 @@ spymaster = {
 	}
 	
 	ai_will_do = {
-		factor = 0.8
+		factor = 1000
 	}
 }
 
@@ -290,7 +262,7 @@ colonial_governor = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -308,7 +280,7 @@ diplomat = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -334,7 +306,7 @@ navigator = {
 	}
 	
 	ai_will_do = {
-		factor = 1.2
+		factor = 1000
 	}
 }
 
@@ -357,7 +329,7 @@ army_reformer = {
 	}
 	
 	ai_will_do = {
-		factor = 1.8
+		factor = 1000
 	}
 }
 
@@ -376,7 +348,7 @@ army_organiser = {
 	}
 	
 	ai_will_do = {
-		factor = 1.3
+		factor = 1000
 	}
 }
 
@@ -394,7 +366,7 @@ commandant = {
 	}
 	
 	ai_will_do = {
-		factor = 1.8
+		factor = 1000
 	}
 }
 
@@ -412,11 +384,7 @@ quartermaster = {
 	}
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.4
-			is_at_war = yes
-		}
+		factor = 1000
 	}
 }
 
@@ -435,11 +403,7 @@ recruitmaster = {
 	}
 	
 	ai_will_do = {
-		factor = 1.1
-		modifier = {
-			factor = 1.5
-			is_at_war = no
-		}
+		factor = 1000
 	}
 }
 
@@ -460,7 +424,7 @@ fortification_expert = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		factor = 1000
 	}
 }
 
@@ -478,10 +442,6 @@ grand_captain = {
 	}
 	
 	ai_will_do = {
-		factor = 1.1
-		modifier = {
-			factor = 1.5
-			is_at_war = no
-		}
+		factor = 1000
 	}
 }
