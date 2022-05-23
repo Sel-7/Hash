@@ -1,0 +1,3 @@
+bur_reduced_lib_desire = {
+	reduced_liberty_desire = 50
+}

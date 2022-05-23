@@ -17,23 +17,20 @@ bur_conquest = {
 		position = 1
 		
 		trigger = {
-			#custom_trigger_tooltip = {
-			#	tooltip = bur_subjects.tooltip
-			#	NOT = {
-			#		any_subject_country = {
-			#			liberty_desire = 1
-			#		}
-			#	}
-			#}
+		#custom_trigger_tooltip = {
+				tooltip = bur_subjects.tooltip
+				NOT = {
+					any_subject_country = {
+						liberty_desire = 50
+					}
+				}
+			}
 		}
 		
 		effect = {
-			lorraine_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
+			add_country_modifier = {
+				name = bur_reduced_lib_desire
+				duration = 7305
 			}
 		}
 	}
