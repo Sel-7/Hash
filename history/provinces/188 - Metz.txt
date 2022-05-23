@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LOR
-controller = LOR 
+owner = BUR
+controller = BUR 
 capital = "Metz"
 is_city = yes
 culture = burgundian
