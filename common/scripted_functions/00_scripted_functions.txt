@@ -207,7 +207,7 @@ can_burn_colony = {
 
 can_colonize_province = {
 	condition = {
-		tooltip = "cat_tooltip_cn_access"
+		tooltip = "hash_tooltip_cn_access"
 		potential = {
 			FROM = {
 				is_colonial_nation = yes
